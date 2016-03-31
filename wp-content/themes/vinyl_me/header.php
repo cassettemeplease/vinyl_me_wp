@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/stylesheets/mailchimp_embedd.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/stylesheets/style.css" type="text/css" media="screen" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/jquery-2.2.2.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.js" type="text/javascript"></script>
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
@@ -50,7 +50,7 @@
     <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
       <ul class='nav navbar-nav navbar-right'>
         <li>
-          <a class='btn btn-default navbar-btn' href='/request_invite.html'>Request an invite</a>
+          <a class='btn btn-default navbar-btn double-padding-left double-padding-right' href='http://cassettemeplease.com/invite-code/'>JOIN</a>
         </li>
       </ul>
       <?php wp_nav_menu( array('menu' => 'Main', 'container' => '', 'items_wrap' => '<ul class="nav navbar-nav navbar-right">%3$s</ul>' )); ?>
